@@ -1,0 +1,122 @@
+{
+  "id": "navigation",
+  "label": "Navigation",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "links": {
+        "type": "Group",
+        "config": {
+          "label": "Links",
+          "fields": {
+            "label": {
+              "type": "StructuredText",
+              "config": {
+                "label": "Label",
+                "placeholder": "",
+                "allowTargetBlank": false,
+                "single": "heading3"
+              }
+            },
+            "link": {
+              "type": "Link",
+              "config": {
+                "label": "Link",
+                "placeholder": "",
+                "select": null
+              }
+            },
+            "dropdown": {
+              "type": "Boolean",
+              "config": {
+                "label": "Dropdown",
+                "default_value": false,
+                "placeholder_true": "true",
+                "placeholder_false": "false"
+              }
+            },
+            "key": {
+              "type": "Text",
+              "config": {
+                "label": "key",
+                "placeholder": ""
+              }
+            },
+            "order": {
+              "type": "Number",
+              "config": {
+                "label": "Order",
+                "placeholder": ""
+              }
+            }
+          }
+        }
+      },
+      "dropdown": {
+        "type": "Group",
+        "config": {
+          "label": "Dropdown",
+          "fields": {
+            "link": {
+              "type": "Link",
+              "config": {
+                "label": "Link",
+                "placeholder": "",
+                "select": null
+              }
+            },
+            "label": {
+              "type": "StructuredText",
+              "config": {
+                "label": "Label",
+                "placeholder": "",
+                "allowTargetBlank": true,
+                "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+              }
+            },
+            "key": {
+              "type": "Text",
+              "config": {
+                "label": "key",
+                "placeholder": ""
+              }
+            },
+            "order": {
+              "type": "Number",
+              "config": {
+                "label": "Order",
+                "placeholder": ""
+              }
+            }
+          }
+        }
+      },
+      "actions": {
+        "type": "Group",
+        "config": {
+          "label": "Actions",
+          "fields": {
+            "label": {
+              "type": "StructuredText",
+              "config": {
+                "label": "Label",
+                "placeholder": "",
+                "allowTargetBlank": true,
+                "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+              }
+            },
+            "link": {
+              "type": "Link",
+              "config": {
+                "label": "Link",
+                "placeholder": "",
+                "select": null
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
